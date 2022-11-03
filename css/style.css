@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+body{
+    background: #000;
+}
+
+.titulo{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    letter-spacing: 3px;
+    color: white;
+}
+
+/* Efecto de neon */
+.azul{
+    text-shadow: 0 0 5px #7bacff,
+    0 0 10px #7bacff,
+    0 0 20px #7bacff,
+    0 0 40px #7bacff,
+    0 0 80px #7bacff,
+    0 0 90px #7bacff,
+    0 0 100px #7bacff;
+}
+.verde{
+    text-shadow: 0 0 5px #7bffce,
+    0 0 10px #7bffce,
+    0 0 20px #7bffce,
+    0 0 40px #7bffce,
+    0 0 80px #7bffce,
+    0 0 90px #7bffce,
+    0 0 100px #7bffce;
+}
+.rosa{
+    text-shadow: 0 0 5px #ff7bac,
+    0 0 10px #ff7bac,
+    0 0 20px #ff7bac,
+    0 0 40px #ff7bac,
+    0 0 80px #ff7bac,
+    0 0 90px #ff7bac,
+    0 0 100px #ff7bac;
+}
+
+/* cambiar el fondo de los botones */
+.btn-azul{
+    background: #7bacff;
+}
+.btn-rosa{
+    background: #ff7bac;
+}
+.btn-verde{
+    background: #7bffce;
+}
